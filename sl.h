@@ -1,4 +1,5 @@
 /*========================================
+<<<<<<< HEAD
  *    sl.h: SL version 5.1
  *	Copyright 1993,2002,2014
  *                Toyoda Masashi
@@ -8,6 +9,17 @@
  */
 
 #define D51HIGHT	10
+=======
+ *    sl.h: SL version 5.02
+ *	Copyright 1993,2002,2014
+ *                Toyoda Masashi
+ *		  (mtoyoda@acm.org)
+ *	Last Modified: 2014/06/03
+ *========================================
+ */
+
+#define D51HEIGHT	10
+>>>>>>> origin/actividad2_1
 #define D51FUNNEL	 7
 #define D51LENGTH	83
 #define D51PATTERNS	 6
@@ -60,7 +72,11 @@
 
 #define COALDEL "                              "
 
+<<<<<<< HEAD
 #define LOGOHIGHT    	 6
+=======
+#define LOGOHEIGHT    	 6
+>>>>>>> origin/actividad2_1
 #define LOGOFUNNEL  	 4
 #define LOGOLENGTH      84
 #define LOGOPATTERNS	 6
@@ -104,7 +120,11 @@
 
 #define DELLN  "                     "
 
+<<<<<<< HEAD
 #define C51HIGHT 11
+=======
+#define C51HEIGHT 11
+>>>>>>> origin/actividad2_1
 #define C51FUNNEL 7
 #define C51LENGTH 87
 #define C51PATTERNS 6

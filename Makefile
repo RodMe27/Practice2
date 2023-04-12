@@ -7,7 +7,21 @@
 #==========================================
 
 CC=gcc
+<<<<<<< HEAD
 CFLAGS=-O
 
 sl: sl.c sl.h
 	$(CC) $(CFLAGS) -o sl sl.c -lncurses
+=======
+CFLAGS=-O -Wall
+
+all: sl
+
+sl: sl.c sl.h
+	$(CC) $(CFLAGS) -o sl sl.c -lncurses
+
+clean:
+	rm -f sl
+
+distclean: clean
+>>>>>>> origin/actividad2_1
